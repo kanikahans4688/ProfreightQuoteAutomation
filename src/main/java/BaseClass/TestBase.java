@@ -48,8 +48,8 @@ public class TestBase {
 			
 			if(browserName.equalsIgnoreCase("chrome")) {
 				
-				System.setProperty("webdriver.chrome.driver", "C:\\Users\\ChromeDriver\\chromedriver.exe");
-			      
+				System.setProperty("webdriver.chrome.driver", ".\\libs\\chromedriver.exe");
+				
 				driver =new ChromeDriver();
 				
 				driver.manage().window().maximize();
